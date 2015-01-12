@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:background="#DDCECFCF"
+		android:gravity="top|center"
+		android:id="@+id/cc01LinearLayout1">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/bba01"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="#DD252A2A"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:padding="5dp"/>
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_margin="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Capital Structure"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"
+						android:textStyle="normal"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, Capital structure and Financial Structure, Theories of Capital structure, Net operating Income Approach, Net Income Approach, Traditional Approach, and MM Approach."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Leverage"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Financial leverage, Operating leverage, Combined leverage"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Working Capital Management"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Introduction, Concept, Operation and Cash conversion cycle, Permanent and Variable working capital, Balanced working capital, Determinants of working capital."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Dividend Policy"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, Objectives, Factors, Stability, Forms of dividend."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Five"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Lease Financing"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Definition, Types, Factors, Lease Vs. Hire purchase, Arguments for and against leasing"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Six"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="International Financial Management"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Nature and purpose of multinational corporation, Direct Foreign Investment, Foreign Exchange Markets, Exchange rate, Spot rate, Forward Contract, Country risk, Political risk."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:paddingTop="25dp"
+					android:paddingRight="5dp"
+					android:paddingBottom="5dp"
+					android:textColor="#555555"
+					android:gravity="right"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewcc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idcc"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

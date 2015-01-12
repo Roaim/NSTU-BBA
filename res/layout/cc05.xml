@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:background="#DDCECFCF"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/bba05"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="#DD252A2A"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:padding="5dp"/>
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_margin="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="The Human Resource Frameworks"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Principles, Functions, Scope of HRM The Central  Challenge, Key Roles in a HR department, The Service Role of a HR Dept., The HRM  Model, Proactive versus Reactive HRM, Viewpoints of HRM."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Human Resource Planning"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Nature, significance, objectives, process, types of human resource planning, enviromnental influence of HR planning, problems of HR planning."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Job analysis"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Job Analysis Information, Collection of Job Analysis Information, Applications of Job  Analysis Information, Job families, Job Design, Techniques of Job Redesign, The Demand for HRs, The Supply of HRs. Job Analysis."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Recruitment and selection"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Recruitment:"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:textColor="#00AAFF"
+						android:paddingTop="5dp"
+						android:paddingLeft="5dp"
+						android:paddingBottom="5dp"/>
+
+					<View
+						android:layout_height="1dp"
+						android:background="?android:attr/dividerVertical"
+						android:layout_width="match_parent"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Constraints and Challenges,-Internal and  External Recruitment Channels, Recruiting Process, selection, Steps in Selection process."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+					<View
+						android:layout_height="1dp"
+						android:background="?android:attr/dividerVertical"
+						android:layout_width="match_parent"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="(Selection Interview : Step 3 (Materials Supplied by teacher))."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:paddingLeft="5dp"
+						android:paddingBottom="5dp"
+						android:paddingRight="5dp"
+						android:textColor="#00AAFF"
+						android:paddingTop="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Five"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Training and Development"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Steps to Training and Development, Training and Development Approaches, Evaluation of Training and Development."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Six"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Career Management"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Career Planning and development, promotion, employee separation, transfer, retirement, labor turn-over, absenteeism."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Seven"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Performance Appraisal"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Elements of Performance Appraisal Systems, Performance Appraisal Challenges, and Post oriented Appraisal Methods, Future-Oriented Appraisals, and implications of Appraisal Process."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Eight"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Compensation policies and method"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Objectives of Compensation Management, types  of compensation, Job Analysis and Evaluation., Benefits and Services."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Nine"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Employee Relations"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Concept, trade unionism, and collective bargaining."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Ten"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Human resource Practice in Bangladesh"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:textColor="#555555"
+					android:paddingTop="25dp"
+					android:paddingRight="5dp"
+					android:paddingBottom="5dp"
+					android:gravity="right"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewcc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idcc"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

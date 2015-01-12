@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:background="#DDCECFCF"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/bba03"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="#DD252A2A"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:padding="5dp"/>
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_margin="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Understanding Marketing Management"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Definition, Core Marketing Concepts, Company Orientations, New Marketing Realities, Marketing and Customer Value, Strategic Business Unit (SBU)."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Environment"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Elements of Macro Environment, Marketing Implications of each elements, Comsumer environmental segments."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Research system"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Research process, Barriers of Marketing Research, Estimating Current demand, Estimating Future demand."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing segmentation, Targeting and Positioning"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Levels of Market segmentation, Bases for segmenting, Market targeting, Developing and communicating positioning strategy, POP's &amp; POD's, Differentiation strategy, PLC, PLC strategy, Brand Equity, Brand strategy."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Five"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Connecting with customers"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Customer perceived value, Customer value analysis, Customer satisfaction, Customer profitability, Customer lifetime value, CRM, Attracting &amp; Retaining customers, Customer database, Consumer behavior model, Buying Decision process, Organization Buying."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Six"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Dealing with competitiors"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Competitive forces, Identifying competitors, Analyzing competitors, Strategies for Leaders, Challengers, Followers and niches, BCG Matrix."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Seven"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Product Strategies"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Levels of product, Product Classification, Product Differentiation, Product line analysis, Product line length, Product mix pricing, Packaging and Labeling, New product development."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Eight"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Service Marketing"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Nature of service, Characteristics of service, Improving  service quality, Holistic Marketing for services, Managing service quality, Managing service brands."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Nine"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Pricing Strategies"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Understanding pricing, Consumer psychology and pricing, Setting the price, Pricing  Method, Adapting the price, Price Changes."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Ten"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Physical Distribution"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Channels and value networks, Channel design decisions, Channel Management decisionsm, Channel Integration and system, Conflict, Cooperation and Competition, E-commerce practices."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Eleven"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Communications"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Role of Marketing Communications, Designing effective  communication, Deciding on communication mix, Managing IMC, Managing advertising, Sales promotion, Public Relations, Direct Marketing, Interactive Marketing, Managing Sales Force."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Twelve"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marketing Related issues"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Consumerism, Environmentalism, Social Responsibility, and Marketing Ethics, CRM, E-Marketing, ISO, Customerization, MNC's Tele Marketing, Supply Chain Management (SCM), CSR, Affiliate Program, PPC, SEO, Viral Marketing."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:paddingTop="25dp"
+					android:paddingRight="5dp"
+					android:paddingBottom="5dp"
+					android:textColor="#555555"
+					android:gravity="right"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewcc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idcc"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

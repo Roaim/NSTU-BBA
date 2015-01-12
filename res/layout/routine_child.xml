@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#BBBBBB">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="3dp"
+		android:background="@drawable/child"
+		android:layout_marginBottom="2dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginRight="4dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Time"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:id="@+id/routinechildTime"
+			android:textColor="@color/routine_room_text"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Course code"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textColor="@color/black_blue"
+			android:id="@+id/routinechildCourseCode"
+			android:textStyle="bold"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Room"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:id="@+id/routinechildRoomNo"
+			android:textColor="#C0C0C0"
+			android:textStyle="italic"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:background="#DCDCDC">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="top|center"
+			android:background="#dcdcdc"
+			android:padding="0dp">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:background="#FF8822"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:background="#FF410A"
+					android:gravity="center"
+					android:textColor="#FFFFFF"
+					android:textStyle="bold"
+					android:text="@string/cC11"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/bba11"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:paddingBottom="5dp"
+					android:textStyle="italic"
+					android:textSize="20sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_height="3dp"
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="top"
+				android:layout_margin="10dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Basic Texts"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginBottom="0dp"
+					android:background="#1FB7F0"
+					android:padding="5dp"
+					android:textStyle="bold"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Management of Technolog: The Key to Competitiveness &amp; Wealth Creation"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Mc Graw Hill Higher Education, USA, By- Khalil, Tarek M. (2000)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Electronic Commerce: A Managerial Perspective"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Prentice Hall, By- Turban, King, Vichland &amp; Lee (2004)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ E Electronic Commerce from Vision to Fulfillment"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Prentice Hall, By- Elias M. Anwar(2007)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="References"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:background="#25D525"
+					android:padding="5dp"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Strategic Management of Technological Innovation"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Boston: McGraw-Hill, By- Schilling, M, (2005)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Electronic Commerce, Principles &amp; Practice"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Academic Press, London, By- Bidgoli, H. (2002)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ E-commerce : A managerial perspective"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Prentice-Hall India(Latest edition), By- Joseph P. T."
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ E-commerce : Business, Technology, Society"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Prentice Hall. By- Laudon &amp; Traver, (3e)"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ The additional Readings of recently published journal articles will be provided to the  students for getting more in-depth insights of the course contents."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_margin="10dp"
+				android:background="#BFF856B9">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Prescribed Text:"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:padding="5dp"
+					android:textColor="#000000"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Database Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:padding="5dp"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="©Roaim Ahmed"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:gravity="right"
+				android:paddingTop="25dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginBottom="5dp"
+				android:textColor="#555555"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewbl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idbl"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

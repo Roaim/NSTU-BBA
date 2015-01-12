@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:layout_marginBottom="40dp"
+	android:layout_marginLeft="25dp"
+	android:layout_marginRight="25dp"
+	android:layout_marginTop="40dp"
+	android:orientation="vertical"
+	android:background="#00FFFFFF"
+	android:gravity="top|center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:background="#F0168DD2"
+		android:padding="5dp">
+
+		<ImageView
+			android:layout_height="48dp"
+			android:layout_width="48dp"
+			android:src="@drawable/roaim"
+			android:layout_marginLeft="5dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="About Developer"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:padding="5dp"
+			android:textStyle="bold"
+			android:layout_marginLeft="10dp"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:layout_marginTop="3dp"
+		android:background="#BF00AAEE"/>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:background="#BFE4E9E7">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:padding="5dp"
+				android:id="@+id/adTextView1"
+				android:autoLink="all"
+				android:layout_weight="1.0"
+				android:text="@string/AboutDeveloper"
+				android:background="#FAFFFFFF"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:layout_marginTop="5dp"
+				android:gravity="center">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="horizontal"
+					android:onClick="fb">
+
+					<ImageView
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:src="@drawable/fb"
+						android:layout_marginLeft="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Click Here"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:textColor="@color/fb"
+						android:paddingLeft="5dp"
+						android:gravity="center"
+						android:textStyle="italic"/>
+
+				</LinearLayout>
+
+				<View
+					android:layout_height="match_parent"
+					android:layout_width="1dp"
+					android:background="#BF00AAEE"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="horizontal"
+					android:onClick="dial">
+
+					<ImageView
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:src="@drawable/dial"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Click Here"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:layout_marginLeft="2dp"
+						android:textStyle="italic"
+						android:textColor="@color/dial"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:layout_marginTop="10dp"
+				android:background="#BF1199FF"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="match_parent"
+				android:background="#bf00AAEE"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Thanks to"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:textColor="#DF0090FF"
+				android:textStyle="bold"
+				android:padding="5dp"/>
+
+			<View
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:background="#BF00AAEE"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="@string/thanks"
+				android:autoLink="all"
+				android:layout_width="match_parent"
+				android:background="#FAFFFFFF"
+				android:padding="5dp"
+				android:textSize="16sp"/>
+
+			<View
+				android:layout_height="3dp"
+				android:layout_width="match_parent"
+				android:background="#BF00AAEE"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

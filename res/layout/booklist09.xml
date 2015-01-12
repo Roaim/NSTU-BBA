@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:background="#DCDCDC">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="top|center"
+			android:background="#DCDCDC"
+			android:padding="0dp">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:background="#FF8822"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:background="#FF410A"
+					android:gravity="center"
+					android:textColor="#FFFFFF"
+					android:textStyle="bold"
+					android:text="@string/cC09"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/bba09"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:paddingBottom="5dp"
+					android:textStyle="italic"
+					android:textSize="20sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_height="3dp"
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_margin="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Books Recommended"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:background="#25D525"
+					android:padding="5dp"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Business Ethics"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- Dr. A. R. Khan"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Essential of Business Environment"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- K. A. Aswathappa"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Business Environment: Challenges &amp; Changes"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- Brooks"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:gravity="right"
+					android:paddingTop="25dp"
+					android:textColor="#555555"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewbl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idbl"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NSTU BBA</string>
+	<string name="exit_msg">Do you really want to Exit?</string>
+	<string name="routineTime8">8:00-8:50(AM)</string>
+	<string name="routineTime9">9:00-9:50(AM)</string>
+	<string name="routineTime10">10:00-10:50(AM)</string>
+	<string name="routineTime11">11:00-11:50(AM)</string>
+	<string name="routineTime12">12:00-12:50(PM)</string>
+	<string name="routineTime02">2:00-2:50(PM)</string>
+	<string name="routineTime03">3:00-3:50(PM)</string>
+	<string name="routineTime04">4:00-4:50(PM)</string>
+	<string name="routineRoom1">Room no: 01</string>
+	<string name="routineRoom2">Room no: 02</string>
+	<string name="TeacherMM">Masum Miah</string>
+	<string name="TeacherAKM">Md. Abdul Kaium Masud</string>
+	<string name="TeacherMMH">Md. Mahbubul Haq</string>
+	<string name="TeacherSA">Shafiqul Alam</string>
+	<string name="TeacherIMT">Iftekhar Mahmud Towhid</string>
+	<string name="cC03">BBA-3103</string>
+	<string name="cC07">BBA-3107</string>
+	<string name="cC11">BBA-3111</string>
+	<string name="cC01">BBA-3101</string>
+	<string name="cC05">BBA-3105</string>
+	<string name="cC09">BBA-3109</string>
+	
+	<string name="jt07">BBA-1207</string>
+	<string name="jt05">BBA-1205</string>
+	<string name="jt01">BBA-1201</string>
+	<string name="jt03">BBA-1203</string>
+	<string name="jt09">BBA-1209</string>
+	
+	<string name="js03">BBA-2103</string>
+	<string name="js09">BBA-2109</string>
+	<string name="js01">BBA-2101</string>
+	<string name="js05">BBA-2105</string>
+	<string name="js07">BBA-2107</string>
+	<string name="js11">BBA-2111</string>
+	
+	<string name="bba01">Financial Management-2</string>
+	<string name="bba03">Marketing Management</string>
+	<string name="bba05">Human Resource Management</string>
+	<string name="bba07">Banking and Insurance</string>
+	<string name="bba09">Business Ethics and Corporate Social Responsibility</string>
+	<string name="bba11">Database Management and E-Business</string>
+	<string name="bba06">Spreadsheet analysis and Database for Business Lab</string>
+	
+	<string name="AboutDeveloper"><b>All credit goes to Almighty Allah</b>.\n\n<i>This app is developed by-</i> \n<b>Roaim Ahmed (Hridoy).</b>\nID: ASH-1210017M\nFirst Batch,\nDepartment of Business Administration,\nNoakhali Science and Technology University.</string>
+	<string name="thanks"><b>(1). MD. SHAHEDUL HOSSAIN (SHAHID)</b>\nBBA 3rd batch</string>
+	<string name="AboutApp">This is the first Departmental app of NSTU BBA. As I have limited resource, I first focus on the 1st batch. Later I will provide new features and resouces. Pray for me. As I made it at a very short period of time, there may have some mistakes. So you are requested to inform these mistakes and also you can give valuable suggestions.</string>
+	<string name="helpMain">Click on an item to view its contents"</string>
+	<string name="helpRoutine">Switch among the batch tabs. \nClick on an item to view its contents. \nFor first batch also click on a Course Code to view Course name and Course Teacher.</string>
+
+	<!-- TestAd:	ca-app-pub-3940256099942544/6300978111		-->
+	<string name="banner_ad_unit_id">ca-app-pub-8068706490491789/7590412555</string>
+	<string name="banner_ad_unit_idctq">ca-app-pub-8068706490491789/6714488156</string>
+	<string name="banner_ad_unit_i">ca-app-pub-8068706490491789/6714488156</string>
+	<string name="banner_ad_unit_idcc">ca-app-pub-8068706490491789/8191221353</string>
+	<string name="banner_ad_unit_idbl">ca-app-pub-8068706490491789/9667954559</string>
+	<string name="banner_ad_unit_idccjr">ca-app-pub-8068706490491789/8191221353</string>
+	
+</resources>

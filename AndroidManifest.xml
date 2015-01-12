@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nstu.bba.firstbatch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="11" 
+        android:targetSdkVersion="17" />
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+
+    <application
+        android:icon="@drawable/actionicon"
+        android:label="@string/app_name" >
+//meta tag required
+<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:label="@string/app_name"
+			android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity 
+			android:label="Routine"
+			android:theme="@android:style/Theme.Holo.Light"
+
+			android:name=".routine" />
+		<activity 
+			android:label="Routine2"
+			android:theme="@android:style/Theme.Holo.Light"
+
+			android:name=".routine2" />
+		<activity 
+			android:label="Routine3"
+			android:theme="@android:style/Theme.Holo.Light"
+
+			android:name=".routine3" />
+		<activity 
+			android:label="Routine"
+			android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity"
+			android:name=".RoutineTab" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="nstu.bba.firstbatch.MainActivity" />
+		</activity>
+		
+		<activity
+			android:label="Booklist"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity"
+			android:name=".Booklist" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="nstu.bba.firstbatch.MainActivity" />
+		</activity>
+		
+		<activity 
+			android:label="Course Content"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity"
+			android:name=".CourseContent" >
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="nstu.bba.firstbatch.MainActivity" />
+		</activity>
+		
+		<activity 
+			android:label="@string/cC01"
+			android:name=".cl1"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="@string/cC03"
+			android:name=".cl3"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="@string/cC05"
+			android:name=".cl5"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="@string/cC07"
+			android:name=".cl7"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="@string/cC09"
+			android:name=".cl9"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="@string/cC11"
+			android:name=".cl11"
+			android:icon="@drawable/class_lecture"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+		<activity 
+			android:label="Course Content"
+			android:name=".ccjr"
+			android:icon="@drawable/course_content"
+			android:theme="@android:style/Theme.Holo.Light"
+			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
+		</activity>
+
+ <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+    </application>
+
+</manifest>

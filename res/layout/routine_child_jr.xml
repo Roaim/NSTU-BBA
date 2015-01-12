@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#BBBBBB"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="3dp"
+		android:background="@drawable/child"
+		android:layout_marginBottom="2dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:layout_marginTop="2dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Time"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textColor="@color/routine_room_text"
+			android:id="@+id/routinechildTime"/>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="fill_parent"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:layout_weight="1.0"
+				android:gravity="center">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="BBA-3333"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:textColor="@color/black_blue"
+					android:id="@+id/routinechildCourseCode"
+					android:textStyle="bold"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1.0"/>
+
+				<View
+					android:layout_height="match_parent"
+					android:background="?android:attr/dividerHorizontal"
+					android:layout_width="1dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Room"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:id="@+id/routinechildRoomNo"
+					android:textStyle="italic"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1.0"
+					android:textColor="#CCCCCC"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_height="1dp"
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Medium Text"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:textColor="#D0D0D0"
+				android:id="@+id/routinechildjrSir"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

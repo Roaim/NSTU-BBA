@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:background="#DDCECFCF"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/bba09"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="#DD252A2A"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:padding="5dp"/>
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_margin="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Understanding the Theories and Tools of Business Ethics"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Concepts of business e ethics, idea of moral principles, major ethical theories, ethical models and tools of ethics."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Concepts of Managerial Ethics &amp; its Implication"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="The domain of managerial ethics,  approaches to managerial ethics, Factors of managerial unethical practices, parties affected by managerial decisions, ways to ethical managerial decisions, Managerial ethics in the light of Islam."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Corporate Ethics &amp; Ensuring Corporate Ethical Environment"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Corporate culture, collective moral responsibility, opposing views of corporate responsibility, ethical excess to corporate information."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Ethics in Buying-Selling Goods &amp; Services"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Buyers compared to sellers, sellers rights as a market power, legal provisions and enforcements, emergence of consumerism movement, consumer protection measures through different rights, marketing ethics."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Five"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Code of Ethics and Social Audit"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Morality and social audit, corporate codes, commitment to high ethical standards, institutionalization of ethical standards, corporate social reporting and social performance."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Six"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Corporate Social Responsibility"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Concepts of social responsibility, responsibility to consumer, responsibility to investors, relationship between and government, advancing social responsibility, role of CAB for enhancing social responsibility.  Environmentalism, global warming, waste management, recycling, industrializing and its effects on nature, technical advancement and world population, Genetically Modified Food and its effect on humanity, adulteration &amp; role of CAB, role of business per sons to save the environment."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Seven"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Corporate Social responsibility practices in Bangladesh"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Eight"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="CSR in developed and developing Societies"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="CSR in Asia, European countries and USA."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:paddingTop="25dp"
+					android:paddingBottom="5dp"
+					android:paddingRight="5dp"
+					android:textColor="#555555"
+					android:gravity="right"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewcc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idcc"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

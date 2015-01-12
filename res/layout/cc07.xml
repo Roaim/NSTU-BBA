@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:background="#DDCECFCF"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/bba07"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:background="#DD252A2A"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"
+			android:padding="5dp"/>
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Banking"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:padding="4dp"
+					android:textStyle="bold"
+					android:textColor="#11AA11"
+					android:background="#EFEFEF"/>
+
+				<View
+					android:layout_height="5dp"
+					android:layout_width="match_parent"
+					android:background="#11BB11"/>
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_margin="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Introduction"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, functions, Principles, Role, Credit Creation, Banking structure in Bangladesh, Productivity of Banks, Banking company Act 1991."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Historical Evaluation and Types"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Different types of Banks function of commercial bank, Principles, Credit creation method, Specialized Bank, different commercial and government Bank of  Bangladesh, Islamic Bank.  Central Bank's functions, Role, Credit Control method of Central Bank, Bangladesh  Bank."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Corporate Social Responsibility of Banks"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, Existing law/rules of CSR, Practices of CSR of different Banks."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Banking Operation"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Liquidity management, policies, money position, reserve"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Five"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Credit and Bank Management"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Credit policy, Analysis, Portfolio, Investment analysis, Competition among Banks."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="10dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Six"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Foreign Exchange"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="meaning, determinants and Determination of foreign exchange rate, Documents used in foreign trade and business."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Insurance"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:padding="5dp"
+					android:textColor="#11AA11"
+					android:background="#EFF0F0F0"
+					android:textStyle="bold"
+					android:gravity="center"/>
+
+				<View
+					android:layout_height="5dp"
+					android:layout_width="match_parent"
+					android:background="#11BB11"
+					android:layout_marginBottom="5dp"/>
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"
+					android:layout_marginBottom="5dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: One"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Introduction"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:textColor="#000000"
+						android:paddingLeft="10dp"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Definition, Nature, History, Role in the Economy, Risk and Insurance, Principles, Types, Insurance and Wagering, Insurance Act in Bangladesh."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Two"
+						android:layout_width="match_parent"
+						android:background="#3377DD"
+						android:textColor="#D3E3F3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Life Insurance"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, Contract, Essential elements, Types of policies, Annuities, Premium, Life table and actuarial calculation, Surrender value."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="5dp"
+					android:background="#FFFFFF">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Three"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Marine Insurance"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, nature, Policies, Act of god, Marine losses, Total loss and Partial loss, Claims and Settlement"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:background="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="5dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Chapter: Four"
+						android:layout_width="match_parent"
+						android:background="#3377dd"
+						android:textColor="#d3e3f3"
+						android:padding="3dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Fire Insurance"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:background="#00AAFF"
+						android:gravity="center"
+						android:padding="5dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Meaning, nature, Policies, Fire Waste, Physical hazard and Moral hazard, Kinds of Policies, Re insurance, Types of re insurance, Claims and Settlement."
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="match_parent"
+						android:padding="5dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:paddingTop="25dp"
+					android:paddingBottom="5dp"
+					android:paddingRight="5dp"
+					android:textColor="#555555"
+					android:gravity="right"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewcc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idcc"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

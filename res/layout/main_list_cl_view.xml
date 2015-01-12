@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="left|center"
+	android:padding="4dp">
+
+	<ImageView
+		android:layout_height="64dp"
+		android:layout_width="64dp"
+		android:src="@drawable/class_lecture"
+		android:id="@+id/mainlistviewImageView1"/>
+
+	<View
+		android:layout_height="match_parent"
+		android:layout_width="1dp"
+		android:layout_marginLeft="7dp"
+		android:background="#E4E4E4"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:paddingLeft="7dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Large Text"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:gravity="left|center"
+			android:id="@+id/mainlistviewTextView1"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="@color/main_list_text"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="First Batch Only"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:textStyle="italic"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

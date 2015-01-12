@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:background="#dcdcdc"
+		android:layout_width="fill_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="top|center"
+			android:background="#dcdcdc"
+			android:padding="0dp">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:background="#FF8822"
+				android:layout_marginBottom="5dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:background="#FF410A"
+					android:gravity="center"
+					android:textColor="#FFFFFF"
+					android:textStyle="bold"
+					android:text="@string/cC05"
+					android:textSize="30sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/bba05"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:paddingBottom="5dp"
+					android:textStyle="italic"
+					android:textSize="20sp"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_height="3dp"
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="top"
+				android:orientation="vertical"
+				android:layout_marginBottom="5dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Text Books"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginBottom="0dp"
+					android:background="#1FB7F0"
+					android:padding="5dp"
+					android:textStyle="bold"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Human Resource Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- S.P. Robbins"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Human Resources &amp; Personnel Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="5th edition, Mc Graw Hill. By- William B. Werther, Jr. &amp; Keith Davis"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Human Resource Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"
+					android:layout_weight="1.0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Last edition. By- Gary Dessler"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"
+					android:layout_weight="1.0"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Reference Books"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:background="#25D525"
+					android:padding="5dp"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Personnel: Human Resource Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- Henemann et al."
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Human Resource Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- H.T. Graham"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Personnel Management &amp; Human Resources"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- William B. Werther, Jr. &amp; Keith Davis"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Current issues in Personnel Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- Kendrith M. Rowland &amp; G.R. Ferris"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="√ Personnel Management"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_marginTop="0dp"
+					android:background="#FFFFFF"
+					android:layout_marginBottom="0dp"
+					android:paddingBottom="0dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:paddingTop="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="By- Edwin B Flippo"
+					android:layout_width="match_parent"
+					android:background="#FFFFFF"
+					android:gravity="right"
+					android:textSize="15sp"
+					android:paddingRight="10dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="©Roaim Ahmed"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textColor="#555555"
+					android:layout_width="match_parent"
+					android:gravity="right"
+					android:paddingTop="25dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adViewbl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_idbl"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
