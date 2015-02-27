@@ -76,48 +76,6 @@
 		</activity>
 		
 		<activity 
-			android:label="@string/cC01"
-			android:name=".cl1"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
-			android:label="@string/cC03"
-			android:name=".cl3"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
-			android:label="@string/cC05"
-			android:name=".cl5"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
-			android:label="@string/cC07"
-			android:name=".cl7"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
-			android:label="@string/cC09"
-			android:name=".cl9"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
-			android:label="@string/cC11"
-			android:name=".cl11"
-			android:icon="@drawable/class_lecture"
-			android:theme="@android:style/Theme.Holo.Light"
-			android:parentActivityName="nstu.bba.firstbatch.MainActivity" >
-		</activity>
-		<activity 
 			android:label="Course Content"
 			android:name=".ccjr"
 			android:icon="@drawable/course_content"
